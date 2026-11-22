@@ -19,3 +19,26 @@ As with the last example, this one needs to be flexible in the middle, with item
 - Items are arranged horizontally as seen in the outcome image.
 - There is 16px between each item on both sides of the header.
 - flex is used to arrange everything.
+--------------------------------------------------------------------------
+
+# Outro estilo comum de cabeçalho
+
+Estamos começando a introduzir um pouco mais de CSS que você ainda não viu. Não se preocupe com isso por enquanto; queremos apenas deixar o visual um pouco mais agradável, e esse CSS não interferirá na sua tarefa.
+
+Para este exercício, provavelmente será necessário fazer pequenas alterações no HTML. Frequentemente, ao usar *flexbox*, é preciso adicionar *containers* (contêineres) em torno dos elementos para posicioná-los onde você deseja. Neste caso, você provavelmente precisará separar os itens que ficarão à esquerda e à direita do cabeçalho.
+
+Assim como você fez no exercício `02-flex-header`, será necessário aninhar *flex containers* uns dentro dos outros.
+
+## Resultado esperado
+Assim como no exemplo anterior, esta estrutura precisa ser flexível na parte central, com os itens posicionados nas extremidades esquerda e direita.
+
+![png](./desired-outcome.png)
+
+![gif](./desired-outcome.gif)
+
+### Verificação
+- Todos os elementos estão centralizados verticalmente dentro do cabeçalho.
+- Há um espaçamento de 8px entre os elementos e as bordas do cabeçalho.
+- Os itens estão organizados horizontalmente, conforme mostrado na imagem de referência.
+- Há um espaçamento de 16px entre cada item, em ambos os lados do cabeçalho.
+- O *flexbox* é utilizado para organizar todos os elementos.
