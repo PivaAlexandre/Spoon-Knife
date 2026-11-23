@@ -20,3 +20,27 @@ Flexbox is useful for laying out entire pages as well as the smaller components 
 - The logo, input and buttons are centered in the screen.
 - The buttons have an appropriate amount of padding.
 - There is space between the logo, input and buttons.
+----------------------------------------------------------------------------------------
+
+# Uma página inteira!
+
+O Flexbox é útil tanto para estruturar páginas completas quanto para organizar componentes menores, com os quais você já vem trabalhando. Neste exercício, propomos um desafio um pouco maior, incluindo elementos que talvez você ainda não conheça. Não há problema nenhum em pesquisar no Google caso surja alguma dúvida!
+
+### Dicas
+- Tente pesquisar algo como `CSS remove list bullets` (como remover marcadores de lista em CSS). Já fizemos isso por você em exemplos anteriores, mas agora é sua vez. Aproveite para aprender!
+- Descobrir como estilizar links em CSS pode ajudar a remover aquele sublinhado indesejado...
+- Adicionamos `height: 100vh` ao elemento `body`... isso faz com que ele tenha exatamente a mesma altura da área de visualização (viewport). Para fixar o rodapé na parte inferior, você precisará usar o Flexbox e definir a direção como coluna (`column`).
+
+## Resultado esperado
+![resultado esperado](./desired-outcome.png)
+
+### Verificação
+
+- O cabeçalho está no topo da página, o rodapé na parte inferior, e ambos permanecem em suas posições mesmo ao redimensionar a tela.
+- O cabeçalho e o rodapé possuem espaçamento interno (`padding`).
+- Os links no cabeçalho e no rodapé estão posicionados nas extremidades (lados opostos).
+- Existe espaçamento entre os links no cabeçalho e no rodapé.
+- O rodapé possui um fundo cinza-claro (`#eeeeee`).
+- O logotipo, o campo de entrada (`input`) e os botões estão centralizados na tela.
+- Os botões possuem um espaçamento interno (`padding`) adequado.
+- Existe espaçamento entre o logotipo, o campo de entrada e os botões.
